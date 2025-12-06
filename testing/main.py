@@ -9,6 +9,6 @@ def setup():
 def loop():
     stepper.moveCW(2000)   # clockwise 200 steps
     delay(500)            # wait 500ms
-    stepper.moveCCW(2000)  # counter-clockwise 200 steps
+    stepper.moveCCW(2000)  # counter-clockwise 2000 steps
     delay(500)
     
