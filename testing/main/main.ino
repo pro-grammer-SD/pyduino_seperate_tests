@@ -1,5 +1,5 @@
-#include "Arduino.h"
 #include "CheapStepper.h"
+#include "Arduino.h"
 
 CheapStepper stepper(8, 9, 10, 11);
 
